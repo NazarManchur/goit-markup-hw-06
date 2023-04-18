@@ -774,26 +774,22 @@ h1 {
 .chec-text span {
   width: 16px;
   height: 16px;
-  border: #2e2f42 solid 1px;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  border: #8e8f99 solid 1px;
 }
 
 .place-checkbox:checked + .chec-text span {
   background-color: #404bbf;
-  border: none;
 }
 .place-checkbox:focus + .chec-text span {
   border-color: #4d5ae5;
-  fill: #ffffff;
 }
 .place-checkbox + .chec-text span {
-  border-color: #ffffff;
   fill: #ffffff;
 }
 /* ++++++ ДЛЯ ПРИХОВУВАННЯ */
