@@ -692,6 +692,7 @@ h1 {
   border-radius: 4px;
   font-size: 16px;
   padding-left: 38px;
+  margin-top: 4px;
 }
 .modal-conteiner {
   margin-top: 4px;
@@ -707,7 +708,7 @@ h1 {
 .label-all {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.08;
+  line-height: 14px;
   color: #8e8f99;
   margin-bottom: 8px;
 }
@@ -718,6 +719,7 @@ h1 {
   resize: none;
   padding-top: 8px;
   margin-top: 4px;
+  display: block;
 }
 .textarea-model:focus {
   outline: none;
@@ -726,7 +728,7 @@ h1 {
 .text-checkbox {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 14px;
   color: #8e8f99;
 }
 .checkbox-link {
@@ -765,6 +767,7 @@ h1 {
   display: flex;
   margin-top: 10px;
   align-items: center;
+  letter-spacing: 0.03em;
 }
 .button-model {
   width: 169px;
